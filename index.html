@@ -5,9 +5,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to CodeFactory publish</title>
+    <style>
+      .title-header {
+        background-color: #48679e;
+        color: #fff;
+        padding: 10px 0px;
+        font-weight: bold;
+      }
+      table th {
+        height: 35px;
+        background-color: #ccc;
+        @apply border text-center;
+      }
+      table td {
+        height: 35px;
+        @apply border text-center;
+      }
+      table > tbody > tr:nth-child(2n + 2) {
+        background-color: #eaedf4;
+      }
+      td.id,
+      td.title {
+        padding-left: 10px;
+        text-align: center;
+
+        a:-webkit-any-link {
+          color: -webkit-link;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+      .container {
+        margin: 0 auto;
+        width: 1000px;
+        text-align: center;
+      }
+      .all_page_table {
+        width: 100%;
+        margin-top: 10px;
+      }
+    </style>
   </head>
   <body>
-    <div>CodeFactory</div>
+    <section class="container">
+      <h1>
+        <span class="text-primary">Code Factory Publishing</span>
+      </h1>
+
+      <!-- 페이지 -->
+      <div class="title-header">페이지</div>
+      <table class="all_page_table border-collapse border table-auto">
+        <thead>
+          <tr>
+            <th scope="col"><span>명칭</span></th>
+            <th scope="col">완료일</th>
+            <th scope="col">수정일</th>
+            <th scope="col">기타</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 메인화면 -->
+          <tr>
+            <td class="title">
+              <a href="./html/splashScreen.html" target="_blank"
+                >Splash Screen</a
+              >
+            </td>
+            <td>11.08</td>
+            <td>11.08</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

@@ -1,0 +1,13 @@
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+.splash-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3c3a36;
+  text-align: center;
+  margin-top: 16px;
+}
