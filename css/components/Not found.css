@@ -1,0 +1,21 @@
+.payment-added-screen {
+  justify-content: center;
+}
+
+.splash-screen {
+  justify-content: center;
+  display: flex;
+}
+.splash-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c3a36;
+  text-align: center;
+  margin-top: 16px;
+}
+.splash-body text {
+  font: size 14px;
+  font-weight: 400;
+  color: #78746d;
+  text-align: center;
+}
