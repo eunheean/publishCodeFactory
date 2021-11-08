@@ -1,8 +1,12 @@
-.splash-screen {
+.splash-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 80vh;
+  height: 100vh;
+}
+.splash-screen {
+  justify-content: center;
+  display: flex;
 }
 .splash-title {
   font-size: 40px;
