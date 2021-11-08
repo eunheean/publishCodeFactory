@@ -7,6 +7,7 @@
     <title>Welcome to CodeFactory publish</title>
     <style>
       .title-header {
+        margin-top: 20px;
         background-color: #48679e;
         color: #fff;
         padding: 10px 0px;
@@ -15,11 +16,15 @@
       table th {
         height: 35px;
         background-color: #ccc;
-        @apply border text-center;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 35px;
       }
       table td {
         height: 35px;
-        @apply border text-center;
+        line-height: 35px;
+        border: 1px solid #000;
+        text-align: center;
       }
       table > tbody > tr:nth-child(2n + 2) {
         background-color: #eaedf4;
@@ -44,11 +49,18 @@
         width: 100%;
         margin-top: 10px;
       }
+      .text-primary {
+        font-size: 40px;
+        font-weight: bold;
+      }
+      .h1 {
+        padding-top: 20px;
+      }
     </style>
   </head>
   <body>
     <section class="container">
-      <h1>
+      <h1 class="h1">
         <span class="text-primary">Code Factory Publishing</span>
       </h1>
 
