@@ -5,7 +5,13 @@
 /* Components */
 @import "./components/status-bar.css";
 @import "./components/splash-screen.css";
+@import "./components/payment-added.css";
+@import "./components/Not found.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.main-screen {
+  display: flex;
 }
