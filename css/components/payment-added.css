@@ -13,10 +13,10 @@
   font-weight: 500;
   color: #3c3a36;
   text-align: center;
-  margin-top: 16px;
+  margin-top: 32px;
   margin-bottom: 8px;
 }
-.splash-body text {
+.splash-text {
   font: size 14px;
   font-weight: 400;
   color: #78746d;
@@ -27,15 +27,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 16px 32px;
   width: 309px;
   height: 56px;
   background-color: #e3562a;
   color: white;
   border-radius: 16px;
   font-size: 16px;
-
   font-weight: 500;
-
   margin-top: 32px;
+  margin-left: 33px;
 }
