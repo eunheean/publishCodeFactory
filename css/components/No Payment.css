@@ -1,0 +1,117 @@
+.payment-added-screen {
+  justify-content: center;
+  margin-bottom: 100px;
+  font-size: 24px;
+}
+
+.splash-screen {
+  justify-content: center;
+  display: flex;
+}
+.splash-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c3a36;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.splash-text {
+  font: size 14px;
+  font-weight: 400;
+  color: #78746d;
+  text-align: center;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 309px;
+  height: 56px;
+  background-color: #e3562a;
+  color: white;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-left: 33px;
+}
+.payment-added-screen {
+  justify-content: center;
+  margin-bottom: 100px;
+  font-size: 24px;
+}
+
+.splash-screen {
+  justify-content: center;
+  display: flex;
+}
+.splash-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c3a36;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.splash-text {
+  font: size 14px;
+  font-weight: 400;
+  color: #78746d;
+  text-align: center;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 309px;
+  height: 56px;
+  background-color: #e3562a;
+  color: white;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-left: 33px;
+}
+.payment-added-screen {
+  justify-content: center;
+  margin-bottom: 100px;
+  font-size: 24px;
+}
+
+.splash-screen {
+  justify-content: center;
+  display: flex;
+}
+.splash-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c3a36;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.splash-text {
+  font: size 14px;
+  font-weight: 400;
+  color: #78746d;
+  text-align: center;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 309px;
+  height: 56px;
+  background-color: #e3562a;
+  color: white;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-left: 33px;
+}
