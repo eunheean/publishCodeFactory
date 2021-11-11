@@ -9,6 +9,8 @@
 @import "./components/Not found.css";
 @import "./components/saved.css";
 @import "./components/No Payment.css";
+@import "./components/No Saved.css";
+@import "./components/Results.css";
 
 body {
   font-family: "Open Sans", sans-serif;
