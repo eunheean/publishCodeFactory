@@ -4,11 +4,11 @@
   font-size: 24px;
 }
 
-.splash-screen {
+.paymentAdded-screen {
   justify-content: center;
   display: flex;
 }
-.splash-title {
+.paymentAdded-title {
   font-size: 24px;
   font-weight: 500;
   color: #3c3a36;
@@ -16,7 +16,7 @@
   margin-top: 32px;
   margin-bottom: 8px;
 }
-.splash-text {
+.paymentAdded-text {
   font: size 14px;
   font-weight: 400;
   color: #78746d;

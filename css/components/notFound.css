@@ -8,19 +8,19 @@ input {
   margin-left: 16px;
 }
 
-.splash-screen {
+.notFound-screen {
   justify-content: center;
   display: flex;
   margin-top: 31px;
 }
-.splash-title {
+.notFound-title {
   font-size: 24px;
   font-weight: 500;
   color: #3c3a36;
   text-align: center;
   margin-top: 32px;
 }
-.splash-text {
+.notFound-text {
   font: size 14px;
   font-weight: 400;
   color: #78746d;
