@@ -62,21 +62,7 @@
   color: #78746d;
   text-align: center;
 }
-.button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 309px;
-  height: 56px;
-  background-color: #e3562a;
-  color: white;
-  border-radius: 16px;
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 32px;
-  margin-left: 33px;
-}
+
 .payment-added-screen {
   justify-content: center;
   margin-bottom: 100px;

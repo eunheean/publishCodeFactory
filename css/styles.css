@@ -3,14 +3,15 @@
 @import "variables.css";
 
 /* Components */
-@import "./components/status-bar.css";
-@import "./components/splash-screen.css";
-@import "./components/payment-added.css";
+@import "./components/statusBar.css";
+@import "./components/splashScreen.css";
+/* @import "./components/payment-added.css";
 @import "./components/Not found.css";
 @import "./components/saved.css";
 @import "./components/No Payment.css";
 @import "./components/No Saved.css";
-@import "./components/Results.css";
+@import "./components/Results.css"; */
+@import "./components/productDetail.css";
 
 body {
   font-family: "Open Sans", sans-serif;
