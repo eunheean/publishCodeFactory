@@ -1,0 +1,24 @@
+.payment-added-screen {
+  justify-content: center;
+  margin-bottom: 100px;
+  font-size: 24px;
+}
+
+.paymentAdded-screen {
+  justify-content: center;
+  display: flex;
+}
+.paymentAdded-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c3a36;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.paymentAdded-text {
+  font: size 14px;
+  font-weight: 400;
+  color: #78746d;
+  text-align: center;
+}

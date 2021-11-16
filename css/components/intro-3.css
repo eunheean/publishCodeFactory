@@ -1,0 +1,20 @@
+.intro-screen {
+  justify-content: center;
+  display: flex;
+  margin-top: 184px;
+}
+.intro-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c3a36;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.intro-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #78746d;
+  text-align: center;
+  margin-bottom: 98px;
+}

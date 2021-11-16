@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/splashScreen.css" />
+    <link rel="stylesheet" href="../css/components/notFound.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Factory - Splash Screen</title>
@@ -21,14 +21,27 @@
     <!-- 상단 status bar -->
 
     <!-- main screen -->
-    <main class="main-screen splash-container">
-      <div class="splash-screen">
-        <img src="../images/splashScreenImg.png" class="" />
-      </div>
-      <div class="splash-title">CodeFactory</div>
-    </main>
-    <!-- main screen -->
+    <main class="main-screen notFound-screen"></main>
+    
+    <div class="search">
+      <input
+        type="text"
+        placeholder="cooking"
+        style="font-weight: 400; font-size: 14px"
+      />
+    </div>
 
+    <div class="notFound-screen">
+      <img src="../images/notfound.png" class="" />
+    </div>
+
+    <div class="notFound-title">Course not found</div>
+    <div class="notFound-text items-center">
+      Try searching the coures with<br />
+      a different keyword
+    </div>
+
+    <!-- main screen --
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

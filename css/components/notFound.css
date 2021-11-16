@@ -1,0 +1,29 @@
+.notFound-screen {
+  justify-content: center;
+}
+input {
+  width: 343px;
+  height: 56px;
+  border-radius: 12px;
+  margin-left: 16px;
+}
+
+.notFound-screen {
+  justify-content: center;
+  display: flex;
+  margin-top: 31px;
+}
+.notFound-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c3a36;
+  text-align: center;
+  margin-top: 32px;
+}
+.notFound-text {
+  font: size 14px;
+  font-weight: 400;
+  color: #78746d;
+  text-align: center;
+  margin-top: 8px;
+}
