@@ -1,0 +1,36 @@
+.login-screen {
+  justify-content: center;
+}
+
+.login-screen {
+  justify-content: center;
+  display: flex;
+  margin-top: 31px;
+}
+.login-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3c3a36;
+  text-align: center;
+  margin-top: 16px;
+}
+.login-text {
+  font: size 14px;
+  font-weight: 400;
+  color: #78746d;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+input {
+  width: 343px;
+  height: 53px;
+  border-radius: 12px;
+  margin-left: 16px;
+  padding: 16px;
+  border: 1px solid #bebab3;
+}
+.content {
+  text-align: center;
+  margin-top: 16px;
+}
