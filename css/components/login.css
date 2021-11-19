@@ -1,7 +1,6 @@
 .login-screen {
   justify-content: center;
 }
-
 .login-screen {
   justify-content: center;
   display: flex;
@@ -34,6 +33,15 @@ input {
   text-align: center;
   margin-top: 16px;
 }
-.common-button button {
+.sign-text {
+  text-align: center;
   margin-top: 16px;
+  margin-bottom: 51px;
+}
+.login-bottom {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+.login-bottom button {
+  margin-bottom: 0px;
 }

@@ -34,3 +34,9 @@ input {
 .homeBer {
   margin-top: 221px;
 }
+
+.not-found-input {
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px #bebab3 solid;
+}
