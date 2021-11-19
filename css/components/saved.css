@@ -25,7 +25,6 @@
 }
 
 .saved-screen {
-  margin-bottom: 100px;
   margin-top: 131px;
   font-size: 24px;
   justify-content: center;
@@ -44,4 +43,6 @@
   font-weight: 400;
   color: #78746d;
   text-align: center;
+  line-height: 21px;
+  margin-top: 8px;
 }

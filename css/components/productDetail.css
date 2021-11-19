@@ -1,4 +1,4 @@
-.payment-added-screen {
+.product_dollar-screen {
   justify-content: center;
   margin-bottom: 20px;
   font-size: 24px;
@@ -47,6 +47,7 @@ button {
 }
 .product-detail-text span {
   margin-top: 4px;
+  margin-bottom: 53px;
 }
 .product_dollar_div {
   display: flex;

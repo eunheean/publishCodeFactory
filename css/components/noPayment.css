@@ -1,14 +1,32 @@
-.noPayment-screen {
-  justify-content: center;
-  margin-bottom: 100px;
-  font-size: 24px;
+.back-round-btn {
+  border-radius: 50%;
+  border: 1px solid #bebab3;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 22px;
 }
 
-.noPayment-screen {
+#round {
+  border-radius: 50%;
+  border: 1px solid #bebab3;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.payment-screen {
+  margin-top: 131px;
+  font-size: 24px;
   justify-content: center;
   display: flex;
 }
-.noPayment-title {
+.payment-title {
   font-size: 24px;
   font-weight: 500;
   color: #3c3a36;
@@ -16,24 +34,10 @@
   margin-top: 32px;
   margin-bottom: 8px;
 }
-.noPayment-text {
+.payment-text {
   font: size 14px;
   font-weight: 400;
   color: #78746d;
   text-align: center;
-}
-.button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 309px;
-  height: 56px;
-  background-color: #e3562a;
-  color: white;
-  border-radius: 16px;
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 32px;
-  margin-left: 33px;
+  line-height: 21px;
 }
