@@ -34,3 +34,6 @@ input {
   text-align: center;
   margin-top: 16px;
 }
+.common-button button {
+  margin-top: 16px;
+}
