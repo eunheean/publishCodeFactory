@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/components/nopayment.css" />
+    <link rel="stylesheet" href="../css/components/noPayment.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Factory - Splash Screen</title>
@@ -21,20 +21,28 @@
     <!-- 상단 status bar -->
 
     <!-- main screen -->
-    <main class="main-screen noPayment-screen">noPayment</main>
+    <div class="screen-top">
+      <div class="back-round-btn">&#60;</div>
+      <div class="screen-main-text">Payment</div>
+      <div class="back-round-empty"></div>
+    </div>
 
-    <div class="noPayment-screen">
+    <div class="payment-screen">
       <img src="../images/payment.png" class="" />
     </div>
 
-    <div class="noPayment-title">No payment method</div>
-    <div class="splash-text items-center">
+    <div class="payment-title">No payment method</div>
+    <div class="payment-text items-center">
       You don’t have any<br />
       payment method
     </div>
 
-    <div class="button">Continue</div>
-
+    <div class="common-button payment-bottom">
+      <button>Continue</button>
+    </div>
+    <div class="common-bar">
+      <div class="homeBar"></div>
+    </div>
     <!-- main screen -->
 
     <script

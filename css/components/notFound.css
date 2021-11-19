@@ -6,6 +6,7 @@ input {
   height: 56px;
   border-radius: 12px;
   margin-left: 16px;
+  margin-top: 16px;
 }
 
 .notFound-screen {
@@ -26,4 +27,10 @@ input {
   color: #78746d;
   text-align: center;
   margin-top: 8px;
+  margin-bottom: 221px;
+  line-height: 21px;
+}
+
+.homeBer {
+  margin-top: 221px;
 }

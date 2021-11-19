@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/components/noSaved.css" />
+    <link rel="stylesheet" href="../css/components/nosaved.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Factory - Splash Screen</title>
@@ -21,7 +21,11 @@
     <!-- 상단 status bar -->
 
     <!-- main screen -->
-    <main class="main-screen noSaved-screen">Saved</main>
+    <div class="screen-top">
+      <div class="back-round-btn">&#60;</div>
+      <div class="screen-main-text">Saved</div>
+      <div class="back-round-empty"></div>
+    </div>
 
     <div class="nosaved-screen">
       <img src="../images/noSaved.png" class="" />
@@ -29,12 +33,16 @@
 
     <div class="nosaved-title">Course not saved</div>
     <div class="nosaved-text items-center">
-      Try saving the course <br />
+      Try saving the course<br />
       again in a few minutes
     </div>
 
-    <div class="button">Continue</div>
-
+    <div class="common-button payment-added-bottom">
+      <button>Continue</button>
+    </div>
+    <div class="common-bar">
+      <div class="homeBar"></div>
+    </div>
     <!-- main screen -->
 
     <script

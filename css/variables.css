@@ -3,6 +3,7 @@
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }
+/* 하단 버튼 */
 .button {
   display: flex;
   flex-direction: row;
@@ -15,6 +16,83 @@
   border-radius: 16px;
   font-size: 16px;
   font-weight: 500;
-  margin-top: 53px;
   margin-left: 33px;
+}
+.common-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 37px;
+}
+
+.common-button button {
+  width: 309px;
+  height: 56px;
+  background-color: #e3562a;
+  border: #e3562a;
+  color: white;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 37px;
+}
+/*하단 bar */
+.homeBar {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  border-radius: 100px;
+  background-color: #78746d;
+  left: calc(50% - 134px / 2);
+  margin-bottom: 8px;
+}
+.common-bar {
+  display: flex;
+  justify-content: center;
+}
+/* 스크린 탑 뒤로가기 버튼, 제목 */
+.back-round-btn {
+  border-radius: 50%;
+  border: 1px solid #bebab3;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 22px;
+}
+#round {
+  border-radius: 50%;
+  border: 1px solid #bebab3;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.screen-main-text {
+  font-size: 24px;
+  font-weight: 500;
+
+  height: 40px;
+  line-height: 40px;
+}
+.screen-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin-top: 14px;
+}
+.back-round-empty {
+  width: 40px;
+}
+
+.intro-skip-text {
+  margin-top: 31px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 16px;
+  text-align: right;
 }

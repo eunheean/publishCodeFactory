@@ -1,20 +1,26 @@
-.intro-screen {
+.intro-3-screen {
   justify-content: center;
   display: flex;
-  margin-top: 184px;
+  margin-top: 107px;
+  margin-bottom: 16px;
 }
-.intro-title {
+.intro-3-title {
   font-size: 24px;
   font-weight: 500;
   color: #3c3a36;
   text-align: center;
-  margin-top: 16px;
+  margin-top: 56px;
   margin-bottom: 8px;
 }
-.intro-text {
+.intro-3-text {
   font-size: 14px;
   font-weight: 400;
   color: #78746d;
   text-align: center;
   margin-bottom: 98px;
+  line-height: 21px;
+}
+
+.intro-3-bottom {
+  padding-bottom: 50px;
 }
